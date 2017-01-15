@@ -1,22 +1,3 @@
-/*  SProject -- SOS Version 1 -- Basic developers version
-
-    Copyright (c) 2012, 2013 by  Inc.
-    All rights reserved.
-
-    There are some functions here which generate a LOT of code
-    (as much as 300 bytes), but are available in one file because
-     wanted it that way.
-    We have also made them void functions in the definition
-    and conditionally accepted formal parameters from the user.
-
-    If you really want these big functions to be inline, #define the
-    macro name _BIG_INLINE_ before including this file.
-    Programs will compile and link correctly even if some modules are
-    compiled with _BIG_INLINE_ and some are not.
-
-    Most importantly ENJOY this beautiful peice of code and
-    appriciate the hours I spent creating it !! -- END OF LINE
-*/
 
 #define pi 3.14
 typedef int number;
